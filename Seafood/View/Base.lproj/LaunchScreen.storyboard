@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seafood" translatesAutoresizingMaskIntoConstraints="NO" id="guB-8j-vo1">
+                                <rect key="frame" x="127" y="368" width="160" height="160"/>
+                                <color key="tintColor" red="0.63137254899999995" green="0.043137254899999998" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Iu5-FR-SnZ"/>
+                                    <constraint firstAttribute="height" constant="160" id="cnQ-Jo-Xb0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="МОРЕПРОДУКТЫ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILA-og-uLN">
+                                <rect key="frame" x="121" y="536" width="172.5" height="25.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25.5" id="dja-r2-EHX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.63137254899999995" green="0.043137254899999998" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="guB-8j-vo1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AOc-vD-NNU"/>
+                            <constraint firstItem="guB-8j-vo1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="BAh-Fj-Yk8"/>
+                            <constraint firstItem="ILA-og-uLN" firstAttribute="top" secondItem="guB-8j-vo1" secondAttribute="bottom" constant="8" id="YGz-07-7Vn"/>
+                            <constraint firstItem="ILA-og-uLN" firstAttribute="top" secondItem="guB-8j-vo1" secondAttribute="bottom" constant="8" id="a5N-c7-RPV"/>
+                            <constraint firstItem="ILA-og-uLN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gdw-Oq-enz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-142.02898550724638" y="368.97321428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="seafood" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
